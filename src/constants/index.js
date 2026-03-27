@@ -16,6 +16,13 @@ import {
   creator,
   mobile,
   web,
+  springboot,
+  django,
+  supabase,
+  sangam,
+  trustgenleads,
+  autoevalai,
+  floatchat,
 } from "../assets";
 
 export const navLinks = [
@@ -33,50 +40,68 @@ export const services = [
 
 export const experiences = [
   {
-    title: "Full Stack Developer Intern",
-    company_name: "Daffodil Health",
-    icon: "daffodil",
+    title: "Freelance Meta Ads Manager",
+    company_name: "& Founder — TrustGenLeads",
+    icon: trustgenleads,
     iconBg: "#383E56",
-    date: "Aug 2023 - Present",
+    date: "March 2024- Present",
     points: [
-      "Spearheaded migration of legacy front-end codebase to modern tech stack.",
-      "Architected scalable and optimized React components, enhancing user interface by 40%.",
+      " Managed ₹5+ Crores in Meta Ads spend",
+      " Built and scaled lead generation systems ",
+      " Worked on high-volume campaigns and real-world business funnels",
     ],
+    type: "work",
   },
   {
-    title: "Problem Setter/Tester",
-    company_name: "Relevel",
-    icon: "relevel",
+    title: "B.Tech in Computer Science & Engineering",
+    company_name: "Sangam University, Bhilwara",
+    icon: sangam,
     iconBg: "#E6DEDD",
-    date: "July 2022 - Aug 2023",
+    date: "July 2022 - May 2027",
     points: [
-      "Synthesized a collection of 500+ diverse Data Structures and Algorithms problems.",
+      "Focused on software development, data structures & algorithms, system design, and modern backend technologies, with strong emphasis on practical applications.",
+      "CGPA: 9.12 (till 4th semester)",
     ],
+    type: "education",
   },
 ];
 
 export const projects = [
   {
-    name: "Summarizer",
-    description: "Summarize anything with help of AI.",
+    name: "AutoEvalAI",
+    description:
+      "Intelligent exam evaluation platform built with Flask, Streamlit, PyTesseract, and Sentence-Transformers.",
     tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "mongodb", color: "green-text-gradient" },
-      { name: "tailwind", color: "pink-text-gradient" },
+      { name: "python", color: "blue-text-gradient" },
+      { name: "flask", color: "green-text-gradient" },
+      { name: "streamlit", color: "pink-text-gradient" },
     ],
-    image: "summarizer",
-    source_code_link: "https://github.com/",
+    image: autoevalai,
+    source_code_link: "https://github.com/nileshrathore22/AutoEvalAI",
   },
   {
-    name: "Movie-App",
-    description: "Movie search application.",
+    name: "FloatChat",
+    description:
+      "A real-time, multi-modal AI chat app built with Next.js, Firebase, and a FastAPI NLP backend.",
     tags: [
-      { name: "react", color: "blue-text-gradient" },
-      { name: "api", color: "green-text-gradient" },
-      { name: "css", color: "pink-text-gradient" },
+      { name: "nextjs", color: "blue-text-gradient" },
+      { name: "firebase", color: "green-text-gradient" },
+      { name: "fastapi", color: "pink-text-gradient" },
     ],
-    image: "movie",
-    source_code_link: "https://github.com/",
+    image: floatchat,
+    source_code_link: "https://github.com/nileshrathore22/floatchat",
+  },
+  {
+    name: "AUGRAT Core",
+    description:
+      "Advanced autonomous code generation engine featuring real-time WebSocket streaming, Flyway migrations, and a robust Spring Boot architecture.",
+    tags: [
+      { name: "springboot", color: "green-text-gradient" },
+      { name: "websockets", color: "pink-text-gradient" },
+      { name: "postgresql", color: "blue-text-gradient" },
+    ],
+    image: null,
+    source_code_link: "https://github.com/nileshrathore22/augrat-core",
   },
 ];
 
@@ -84,13 +109,13 @@ export const technologies = [
   { name: "HTML 5", icon: html },
   { name: "CSS 3", icon: css },
   { name: "JavaScript", icon: javascript },
-  { name: "TypeScript", icon: typescript },
+  { name: "Springboot", icon: springboot },
   { name: "React JS", icon: reactjs },
-  { name: "Redux Toolkit", icon: redux },
+  { name: "Django", icon: django },
   { name: "Tailwind CSS", icon: tailwind },
   { name: "Node JS", icon: nodejs },
   { name: "MongoDB", icon: mongodb },
-  { name: "Three JS", icon: threejs },
+  { name: "Supabase", icon: supabase },
   { name: "git", icon: git },
   { name: "figma", icon: figma },
   { name: "docker", icon: docker },

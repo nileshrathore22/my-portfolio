@@ -47,7 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am presently serving as a Software Engineering Intern at Groww, India, and concurrently employed as a Problem Setter/Tester at Relevel. I possess a robust understanding of Data Structures and Algorithms, reflected by my Expert-level proficiency (1739) on CodeForces and 5-star rating (2157) on CodeChef. Furthermore, I am a three-time ICPC Regionalist and secured the 46th rank in the Gwalior-Pune Regionals.
+        Backend Engineer with a strong foundation in system design and scalable application development. Experienced in building REST APIs and backend systems using Java (Spring Boot), Django, and Node.js.
+
+        Worked on real-world projects involving automation, real-time systems, and AI-based solutions, along with exposure to large-scale digital operations.
+
+        Focused on building efficient, scalable, and production-ready backend systems.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

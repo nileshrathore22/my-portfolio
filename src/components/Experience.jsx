@@ -10,7 +10,22 @@ const ExperienceCard = ({ experience }) => {
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg }}
+      icon={
+        <div className='flex justify-center items-center w-full h-full'>
+          <img
+            src={experience.icon}
+            alt={experience.company_name}
+            className='w-[80%] h-[80%] rounded-full object-contain'
+          />
+        </div>
+      }
     >
+      <div className="flex justify-start mb-2">
+        <span className="text-[12px] font-medium px-2 py-1 rounded-full uppercase tracking-wider" 
+              style={{ backgroundColor: experience.type === 'education' ? '#915EFF' : 'transparent', border: experience.type === 'education' ? 'none' : '1px solid #915EFF', color: '#fff' }}>
+          {experience.type === 'education' ? 'Education' : 'Work Experience'}
+        </span>
+      </div>
       <div>
         <h3 className='text-white text-[24px] font-bold'>{experience.title}</h3>
         <p className='text-secondary text-[16px] font-semibold' style={{ margin: 0 }}>{experience.company_name}</p>
@@ -31,7 +46,7 @@ const Experience = () => {
     <section className="sm:px-16 px-6 sm:py-16 py-10 max-w-7xl mx-auto relative z-0" id="work">
       <div>
         <p className="sm:text-[18px] text-[14px] text-secondary uppercase tracking-wider text-center">What I have done so far</p>
-        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">Work Experience.</h2>
+        <h2 className="text-white font-black md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px] text-center">Experience & Education.</h2>
       </div>
       <div className='mt-20 flex flex-col'>
         <VerticalTimeline>

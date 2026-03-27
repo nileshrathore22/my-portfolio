@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <rect width="100" height="100" fill="#383E56" rx="20" />
+  <circle cx="50" cy="40" r="15" fill="#00cea8"/>
+  <text x="50" y="75" font-family="Arial, sans-serif" font-weight="bold" font-size="14" fill="#fff" text-anchor="middle">TGL</text>
+</svg>

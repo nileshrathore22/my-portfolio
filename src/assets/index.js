@@ -20,15 +20,22 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import springboot from "./tech/springboot.svg";
+import django from "./tech/django.svg";
+import supabase from "./tech/supabase.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import sangam from "./company/sangam.jpg";
+import trustgenleads from "./company/trustgenleads.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import autoevalai from "./autoevalai.png";
+import floatchat from "./floatchat.png";
 
 export {
   logo,
@@ -52,11 +59,18 @@ export {
   tailwind,
   typescript,
   threejs,
+  springboot,
+  django,
+  supabase,
   meta,
   shopify,
   starbucks,
   tesla,
+  sangam,
+  trustgenleads,
   carrent,
   jobit,
   tripguide,
+  autoevalai,
+  floatchat,
 };
