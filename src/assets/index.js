@@ -30,6 +30,9 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import sangam from "./company/sangam.jpg";
 import trustgenleads from "./company/trustgenleads.jpg";
+import grras from "./company/grras.png";
+import lccorporate from "./company/lccorporate.png";
+import zorvyn from "./company/zorvyn.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -68,6 +71,9 @@ export {
   tesla,
   sangam,
   trustgenleads,
+  grras,
+  lccorporate,
+  zorvyn,
   carrent,
   jobit,
   tripguide,

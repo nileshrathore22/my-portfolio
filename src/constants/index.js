@@ -21,6 +21,9 @@ import {
   supabase,
   sangam,
   trustgenleads,
+  grras,
+  lccorporate,
+  zorvyn,
   autoevalai,
   floatchat,
 } from "../assets";
@@ -63,6 +66,44 @@ export const experiences = [
       "CGPA: 9.12 (till 4th semester)",
     ],
     type: "education",
+  },
+  {
+    title: "Java Developer Intern",
+    company_name: "Grras Solutions Pvt Ltd",
+    icon: grras,
+    iconBg: "#E8F5E9",
+    date: "June 2025 - August 2025",
+    points: [
+      "Focus on translating \"DSA\" into \"Efficiency\" and \"Java\" into \"Scalability.\"",
+      "Developed core Java modules with emphasis on performance and clean code architecture.",
+      "Implemented data structures and algorithms to solve real-world business problems.",
+    ],
+    type: "work",
+  },
+  {
+    title: "Backend Developer Intern",
+    company_name: "LC Corporate",
+    icon: lccorporate,
+    iconBg: "#E3F2FD",
+    date: "September 2025 - March 2026",
+    points: [
+      "Skilled in building REST APIs, database design, authentication, and scalable cloud-based systems using Node.js and SQL.",
+      "Designed and implemented secure authentication flows and role-based access control.",
+      "Collaborated on cloud infrastructure and optimized SQL queries for high-throughput operations.",
+    ],
+    type: "work",
+  },
+  {
+    title: "Backend Developer Intern",
+    company_name: "Zorvyn Fintech",
+    icon: zorvyn,
+    iconBg: "#EDE7F6",
+    date: "April 2026 - Present",
+    points: [
+      "Building scalable backend services and high-performance APIs to support fintech applications.",
+      "Optimizing system reliability, data processing, and performance in a distributed environment.",
+    ],
+    type: "work",
   },
 ];
 
