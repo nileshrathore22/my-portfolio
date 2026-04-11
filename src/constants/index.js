@@ -43,18 +43,6 @@ export const services = [
 
 export const experiences = [
   {
-    title: "Backend Developer Intern",
-    company_name: "Zorvyn Fintech",
-    icon: zorvyn,
-    iconBg: "#EDE7F6",
-    date: "April 2026 - Present",
-    points: [
-      "Building scalable backend services and high-performance APIs to support fintech applications.",
-      "Optimizing system reliability, data processing, and performance in a distributed environment.",
-    ],
-    type: "work",
-  },
-  {
     title: "Freelance Meta Ads Manager",
     company_name: "& Founder — TrustGenLeads",
     icon: trustgenleads,
@@ -64,6 +52,18 @@ export const experiences = [
       " Managed ₹5+ Crores in Meta Ads spend",
       " Built and scaled lead generation systems ",
       " Worked on high-volume campaigns and real-world business funnels",
+    ],
+    type: "work",
+  },
+  {
+    title: "Backend Developer Intern",
+    company_name: "Zorvyn Fintech",
+    icon: zorvyn,
+    iconBg: "#EDE7F6",
+    date: "April 2026 - Present",
+    points: [
+      "Building scalable backend services and high-performance APIs to support fintech applications.",
+      "Optimizing system reliability, data processing, and performance in a distributed environment.",
     ],
     type: "work",
   },
